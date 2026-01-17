@@ -59,8 +59,9 @@ body {
     transition: 1.5s cubic-bezier(0, 0, 0.7, 1);
 }
 
-.header__button:hover .button--circle {
-    filter: brightness(80%);
+.header__button:hover {
+    filter: blur(0.5px);
+    opacity: 0.8;
 }
 
 .menu__list {
@@ -116,10 +117,10 @@ body {
 }
 
 .footer__button {
-    transition: 1s ease-in-out 0.5s;
+    transition: 1.5s ease-in-out 0.5s;
 }
 
-.footer__button:hover .button--circle{
+.footer__button:hover {
     filter: brightness(1.6);
 }
 
@@ -163,7 +164,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 1s ease;
 }
 
 
