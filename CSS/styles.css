@@ -36,8 +36,8 @@ body {
     gap: 16px;
     align-items: center;
     padding: 24px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
 
 .header__logo {
@@ -71,7 +71,7 @@ body {
 .menu__list {
     list-style: none;
     padding-left: 24px;
-    padding-bottom: 250px;
+    padding-bottom: 270px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -94,7 +94,7 @@ body {
 }
 
 .menu__link--active {
-    opacity: 0.7;
+    opacity: 0.6;
     position: relative;
 }
 
@@ -152,7 +152,7 @@ body {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.6px;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
     margin-top: 16px;
 }
 
@@ -160,6 +160,7 @@ body {
     display: flex;
     gap: 5px;
     padding-left: 24px;
+    padding-bottom: 30px;
 }
 
 .language__button {
@@ -184,7 +185,7 @@ body {
 }
 
 .language__button--selected {
-    opacity: 0.7; 
+    opacity: 0.6; 
 }
 
 .language__button:hover {
