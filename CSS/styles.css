@@ -24,11 +24,12 @@ body {
 
 .fixed__block {
     width: 320px;
-    height: 100%;
-    overflow-y: auto;
     position: fixed;
     background-color: #FFFFFF;
     box-shadow: 5px 0 80px rgba(22, 32, 93, 0.3); 
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .fixed__header {
@@ -67,7 +68,6 @@ body {
 .menu__list {
     list-style: none;
     padding-left: 24px;
-    padding-bottom: 270px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -107,6 +107,10 @@ body {
 
 .menu__link:hover {
     filter: blur(0.6px);
+}
+
+.fixed__footer {
+    margin-top: auto;
 }
 
 .footer__buttons {
@@ -150,7 +154,7 @@ body {
     display: flex;
     gap: 5px;
     padding-left: 24px;
-    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .language__button {
